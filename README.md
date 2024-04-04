@@ -13,7 +13,7 @@ Aqui estão as etapas para compilar o programa:
 3. Execute o seguinte comando para compilar o programa:
 
 ```bash
-gcc -o transferencia transferencia.c
+gcc projeto.c -o projeto
 ````
 
 Isso irá compilar o programa e criar um executável chamado projeto.

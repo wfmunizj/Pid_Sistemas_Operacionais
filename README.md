@@ -32,7 +32,7 @@ Além disso, este programa permite que você escolha a direção da transferênc
 
 Para verificar se os resultados propostos foram alcançados, você pode fazer o seguinte:
 
-1. Verifique se o saldo da conta de origem é zero ou não tem fundos suficientes para a transação após a execução do programa.
+1. Verifique se o saldo da conta de origem é o (valor inicial - o valor total a ser transferido) ou não tem fundos suficientes para a transação após a execução do programa.
 2. Verifique se o saldo da conta de destino aumentou pelo valor da transferência multiplicado pelo número de transações.
 3. Verifique se o saldo total (soma dos saldos das contas `from` e `to`) permanece o mesmo após todas as transações.
 
